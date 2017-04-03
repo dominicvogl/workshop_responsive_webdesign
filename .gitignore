@@ -1,0 +1,7 @@
+# Ignore some Stuff
+
+.idea
+.zip
+node_modules
+.DS_Store
+src/bower-components/
