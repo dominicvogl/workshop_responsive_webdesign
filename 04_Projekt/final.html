@@ -6,9 +6,12 @@
 
    <meta charset="utf-8">
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <title>Responsive Webdesign - 04 Projekt</title>
+
+   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="all" />
+   <link rel="stylesheet" href="css/app.css" type="text/css" media="all" />
 
 </head>
 
@@ -64,8 +67,7 @@
 <!-- Intro ENDE -->
 
 <!-- Blogroll -->
-<!-- Blogpost -->
-<section>
+<section class="mod mod--blogroll">
    <h1>Blog</h1>
 
    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Omnia contraria, quos etiam insanos esse
@@ -73,7 +75,7 @@
       caecitas. Quae cum magnifice primo dici viderentur, considerata minus probabantur. Duo Reges: constructio
       interrete. Negare non possum. Si quae forte-possumus. Ergo id est convenienter naturae vivere, a natura discedere.</p>
 
-   <ul class="blogroll--wrapper">
+   <ul class="blogroll--wrapper list--reset">
       <li class="blogroll--item">
 
          <h3>Mein erster Blogpsot</h3>
@@ -110,7 +112,6 @@
    </ul>
 
 </section>
-<!-- Blogpost ENDE -->
 <!-- Blogroll ENDE -->
 
 <!-- Fotografie -->
@@ -122,7 +123,7 @@
       quid ille aiat aut neget. Si longus, levis dictata sunt. Restinguet citius, si ardentem acceperit. Sed potestne rerum
       maior esse dissensio? Habes, inquam, Cato, formam eorum, de quibus loquor, philosophorum.</p>
 
-   <ul class="image--feed">
+   <ul id="image--feed" class="image--feed list--reset">
 
       <li class="feed--item">
 
@@ -136,10 +137,40 @@
 
       <li class="feed--item">
 
+         <img src="../00_assets/images-copyright/portrait-01.jpg" alt="Portrait">
+
+         <div class="item--meta">
+            <span class="tag">Portrait</span>
+         </div>
+
+      </li>
+
+      <li class="feed--item">
+
+         <img src="../00_assets/images-copyright/portrait-03.jpg" alt="Portrait">
+
+         <div class="item--meta">
+            <span class="tag">Portrait</span>
+         </div>
+
+      </li>
+
+      <li class="feed--item">
+
          <img src="../00_assets/images/lost_place-10.jpg" alt="Lost Place">
 
          <div class="item--meta">
             <span class="tag">Lost Place</span>
+         </div>
+
+      </li>
+
+      <li class="feed--item">
+
+         <img src="../00_assets/images-copyright/portrait-05.jpg" alt="Portrait">
+
+         <div class="item--meta">
+            <span class="tag">Portrait</span>
          </div>
 
       </li>
@@ -199,6 +230,8 @@
 
 <!-- Footer ENDE -->
 
+<script src="js/macy.js" type="text/javascript" defer></script>
+<script src="js/setup.js" type="text/javascript" defer></script>
 
 </body>
 
