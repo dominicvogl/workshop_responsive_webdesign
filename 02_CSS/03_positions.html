@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+   <!-- Zeichensatz einstellen -->
+   <meta charset="utf-8">
+
+   <!-- Viewport für mobile konfigurieren -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Responsive Webdesign - 02 CSS</title>
+
+   <style type="text/css">
+
+      body {
+         height: 2000px;
+         font-size: 1.1em;
+         font-family: Arial, sans-serif;
+      }
+
+      div {
+         width: 140px;
+         color: #fff;
+         font-size: .9em;
+         margin: 15px;
+         padding: 15px;
+      }
+
+      .static {
+         position: static;
+         background: cadetblue;
+      }
+
+      .relative {
+         position: relative;
+         background: orangered;
+         left: 40px;
+         top: 80px;
+         width: 300px;
+         height: 200px;
+      }
+
+      .absolute {
+         position: absolute;
+         background: greenyellow;
+         color: #000;
+         left: 150px;
+         top: 150px;
+      }
+
+      .fixed {
+         position: fixed;
+         background: gray;
+         left: 300px;
+         top: 400px;
+      }
+
+      .float {
+         float: left;
+         display: block;
+         width: 100px;
+         margin: 15px;
+      }
+
+   </style>
+
+</head>
+
+<body>
+
+<div class="static">Ich bin "static" ich befinde mich im normalen Textfluss</div>
+
+<div class="static">Ich bin "static" ich befinde mich im normalen Textfluss</div>
+
+<div class="relative">
+   <span class="float">Ich bin "relative" positioniert. Ausgehend von meiner Normalposition.</span>
+   Ich bin "relative" positioniert. Ausgehend von meiner Normalposition.
+</div>
+
+<div class="static">Ich bin "static" ich befinde mich im normalen Textfluss</div>
+
+<div class="absolute">Ich bin "absolut" positioniert. Ausgehend vom Null-Punkt meines Eltern-Elements.</div>
+
+<div class="fixed">Ich bin "fixed" positioniert. Ausgehend vom Null-Punkt des Viewports. Ich scrolle nicht mit.</div>
+
+</body>
+
+</html>
