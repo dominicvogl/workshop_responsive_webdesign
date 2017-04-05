@@ -1,0 +1,19 @@
+/* Hier geht es jetzt um die CSS Syntax: Das hier ist ein Kommentar */
+
+body {
+    background: rgb(207, 228, 255);
+    color: #222;
+    font-size: 17px;
+}
+
+.container {
+    font-size: 1.1em;
+    color: #228b22;
+}
+
+#intro {
+    border: 5px solid #228b22;
+    font-size: 1.35em;
+    padding: 20px;
+    margin-bottom: 40px;
+}
