@@ -1,35 +1,4 @@
-/* Allgemeine Einstellungen */
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Bilder sich an die Breite des Viewports anpassen lassen */
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Module */
-
-.mod {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 /* Image Feed */
-.list--reset {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .feed--item {
     display: block;
     position: relative;

@@ -1,0 +1,41 @@
+/* Allgemeine Einstellungen */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hintergrundfarbe einstellen */
+body {
+    background: url(../assets/backgrounds/office.png) repeat;
+    color: #fff;
+}
+
+a {
+    color: #4cb1cb;
+}
+
+
+/* Bilder passen sich automatisch der Viewportbreite an */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Module Stylings */
+
+.mod {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list--reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
