@@ -1,0 +1,16 @@
+body {
+    background: url(../../00_assets/backgrounds/office.png) repeat;
+
+    color: #fff;
+    font-family: "Abel", sans-serif;
+}
+
+h3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.4em;
+    color: #e1821b;
+}
+
+a {
+    color: #e1821b;
+}

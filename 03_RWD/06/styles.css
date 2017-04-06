@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../../00_assets/backgrounds/office.png) repeat;
+
+    color: #fff;
+    font-family: "Abel", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.4em;
+    color: #e1821b;
+}
+
+a {
+    color: #e1821b;
+}
+
+.list--reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mod {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blogroll {
+    overflow: hidden;
+}
+
+.blogroll > li {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+article {
+    border: 3px solid #fff;
+}
+
+.inner-content {
+    padding: 0 20px 20px;
+}
