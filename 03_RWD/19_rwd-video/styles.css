@@ -221,6 +221,26 @@ address:after {
 }
 
 /*
+ * Video Container
+ */
+
+.mod--video-container {
+    position: relative;
+    padding-bottom: 56%; /* 16:9 Format, 9 / 16 = 0,56 * 100% */
+    height: 0;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.mod--video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
  * Media Queries
  */
 
