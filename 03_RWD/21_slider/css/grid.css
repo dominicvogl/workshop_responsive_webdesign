@@ -5,7 +5,8 @@
 }
 
 .row {
-    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .column {
@@ -16,10 +17,6 @@
 }
 
 @media screen and (min-width: 520px) {
-
-    .column {
-        float: left;
-    }
 
     .col-3 {
         width: 25%;

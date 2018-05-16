@@ -108,12 +108,8 @@ a:hover {
  * Navigation Styles
  */
 
-.mod--navigation {
-    overflow: hidden;
-}
-
 .main--navigation {
-    float: right;
+    text-align: right;
 }
 
 .main--navigation li {

@@ -113,7 +113,7 @@ a:hover {
 }
 
 .main--navigation {
-    float: right;
+    text-align: right;
 }
 
 .main--navigation li {

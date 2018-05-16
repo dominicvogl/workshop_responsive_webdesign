@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background: url(../../00_assets/backgrounds/office.png) repeat;
+    background: url(../../../00_assets/backgrounds/office.png) repeat;
     color: #fff;
     font-family: "Abel", sans-serif;
     font-size: 20px;
