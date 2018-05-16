@@ -5,21 +5,17 @@
 }
 
 .row {
-    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .column {
-    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 30px;
 }
 
 @media screen and (min-width: 520px) {
-
-    .column {
-        float: left;
-    }
 
     .col-3 {
         width: 25%;
