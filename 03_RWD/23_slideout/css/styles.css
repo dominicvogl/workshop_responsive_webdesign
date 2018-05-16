@@ -18,7 +18,7 @@ body {
 }
 
 #panel {
-    background: url(../../00_assets/backgrounds/office.png) repeat;
+    background: url(../../../00_assets/backgrounds/office.png) repeat;
 }
 
 img {
@@ -47,7 +47,7 @@ hr {
 
 h1 {
     font-size: 2.2em;
-    color: rgb(225, 130, 27)
+    color: #873EE1;
 }
 
 h3 {
