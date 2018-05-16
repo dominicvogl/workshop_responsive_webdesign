@@ -109,7 +109,7 @@ a:hover {
 }
 
 .main--navigation {
-    float: right;
+    text-align: right;
 }
 
 .main--navigation li {
@@ -162,11 +162,11 @@ a:hover {
 }
 
 .blogroll {
-    overflow: hidden;
+    display: flex;
 }
 
 .blogroll > li {
-    float: left;
+    display: flex;
     width: 50%;
     padding: 0 10px;
 }
