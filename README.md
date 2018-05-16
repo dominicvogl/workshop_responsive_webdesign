@@ -1,7 +1,9 @@
-## Responsive Webdesign Workshop
-### Arbeitsdateien
+# Responsive Webdesign Workshop
+## Workfiles
 
-Autor / Dozent: [Dominic Vogl](http://www.dominicvogl.de)
+Author: [Dominic Vogl](http://www.dominicvogl.de)
 
+## Changelog
 
-Changelog
+### 2018
+* remove floatings and add flexbox for grid building
