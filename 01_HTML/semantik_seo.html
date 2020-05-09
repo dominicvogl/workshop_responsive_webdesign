@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Im Browser nicht sichtbare Inhalte -->
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HTML, CSS Start - Semantik & SEO</title>
+
+</head>
+
+<!-- Im Browser sichtbare Inhalte -->
+<body>
+
+<!-- Beispiel richtig -->
+<div>
+   <img src="../00_assets/images/lost_place-10.jpg" width="250" alt="preview" />
+   <h1>Beispiel richtig</h1>
+   <span>01.04.2016</span>
+   <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Audio equidem philosophi vocem, Epicure, sed quid tibi
+      dicendum sit oblitus es. Duo Reges: constructio interrete. Quare attende, quaeso. Neque solum ea communia, verum
+      etiam paria esse dixerunt. Quodsi ipsam honestatem undique pertectam atque absolutam. Non enim ipsa genuit hominem,
+      sed accepit a natura inchoatum.</p>
+   <a href="#">weiterlesen</a>
+</div>
+<!-- Beispiel richtig ENDE -->
+
+
+
+<!-- Beispiel falsch -->
+<div>
+   <img src="../00_assets/images/lost_place-10.jpg" width="250" alt="preview" />
+   <div>Beispiel falsch</div>
+   <p>01.04.<date></p>2016</date>
+   <br>
+   <a>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Audio equidem philosophi vocem, Epicure, sed quid tibi
+      dicendum sit oblitus es. Duo Reges: constructio interrete. Quare attende, quaeso. Neque solum ea communia, verum
+      etiam paria esse dixerunt. Quodsi ipsam honestatem undique pertectam atque absolutam. Non enim ipsa genuit hominem,
+      sed accepit a natura inchoatum.</a>
+   <div>weiterlesen</div>
+
+</div>
+<!-- Beispiel falsch ENDE -->
+
+</body>
+
+</html>

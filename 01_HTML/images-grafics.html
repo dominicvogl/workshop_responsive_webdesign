@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<!-- Im Browser nicht sichtbare Inhalte -->
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HTML, CSS Start - Bilder und Grafiken</title>
+
+</head>
+
+<!-- Im Browser sichtbare Inhalte -->
+<body>
+
+<!-- Normales Bild mit Maße -->
+<img src="../00_assets/images/lost_place-11.jpg" width="500" height="750" alt="Lost Place" />
+
+<!-- Normales Bild ohne Maße -->
+<img src="../00_assets/images/lost_place-11.jpg" alt="Lost Place" />
+
+<!-- Grafik als Image -->
+<img src="../00_assets/svg/logo.svg" width="300" alt="Logo" />
+
+<!-- Grafik direkt im HTML als SVG zeichnen -->
+<svg height="300" width="300">
+   <path d="M150 0 L0 300 L300 300 Z" />
+</svg>
+
+<!-- <picture> Element für mehr Kontrolle über die Bildgrößen -->
+<picture>
+   <source media="(min-width: 45em)" srcset="../00_assets/images/lost_place-10.jpg">
+   <!-- Fallback -->
+   <img src="../00_assets/images/lost_place-10-small.jpg">
+</picture>
+
+</body>
+
+</html>
