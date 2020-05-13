@@ -1,0 +1,31 @@
+/* HTML Elemente direkt ansprechen */
+body {
+	background: cornflowerblue;
+}
+
+/* ID's */
+#maincontainer {
+	background: #fff;
+}
+
+/* Klassen */
+.navigation-item {
+	display: inline-block;
+	font-size: 1.4em;
+	padding: 0.5rem;
+}
+
+/* Pseudoklassen z.B. für Statusänderung von Elementen */
+.navigation-item:first-child {
+	color: yellow;
+}
+
+/* Media Queries für das Styling verschiedenen Viewportgrößen (Mobile, Tablet, usw.) */
+@media screen and (min-width: 450px) {
+
+	#maincontainer {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+
+}
